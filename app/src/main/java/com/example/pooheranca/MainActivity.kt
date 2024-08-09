@@ -29,4 +29,4 @@ class MainActivity : AppCompatActivity() {
         gerenteMaria.setTotalFuncionarios(25)
     }
 }
-<! criar tela >
+<! criar tela de login com dois campos de texto e um botão de login. >
