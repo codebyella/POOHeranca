@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="16dp">
 
+    <!-- Título da Tela -->
     <TextView
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Informações"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="24dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Informações do Gerente -->
+    <TextView
+        android:id="@+id/txtGerente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerente:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtSalarioGerente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salário:"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <!-- Informações do Funcionário -->
+    <TextView
+        android:id="@+id/txtFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Funcionário:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtSalarioFuncionario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salário:"
+        android:textSize="18sp" />
+
+</LinearLayout>
