@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">POOHeranca</string>
+    <string name="funcion_rio">Funcionário</string>
+    <string name="gerente">Gerente</string>
+    <string name="sal_rio">Salário</string>
+    <string name="informa_es">Informações</string>
 </resources>
